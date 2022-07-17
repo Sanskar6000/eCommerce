@@ -104,9 +104,10 @@ export const mintNFT = async (url, name, description) => {
 
   //make metadata
   const metadata = {};
-  metadata.name = name;
-  metadata.image = url;
-  metadata.description = description;
+  metadata.name = 'Pawmi';
+  metadata.image =
+    'https://sportshub.cbsistatic.com/i/2022/06/01/809f7b46-557b-4e6c-b55a-867f207ca223/pokemon-sv-pawmi-key-art.png?auto=webp&width=2018&height=1752&crop=1.152:1,smart';
+  metadata.description = 'Cute';
 
   //make pinata call
   const pinataResponse = await pinJSONToIPFS(metadata);
