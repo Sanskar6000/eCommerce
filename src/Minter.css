@@ -1,0 +1,28 @@
+.product {
+  background-color: white;
+  padding: 5px;
+}
+
+.product img {
+  max-height: 150px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+  margin: 5px;
+}
+
+.ratingNumber {
+  color: #1c6dd0;
+}
+
+.productPrice {
+  margin-top: 5px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.product button {
+  background-color: #ffc900;
+  margin-top: 10px;
+  border: none;
+}
